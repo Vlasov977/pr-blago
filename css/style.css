@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.bg-light {
+    background-color: #26adff!important;
+
+}
+
+.navbar-nav a {
+    font-family: Opensans;
+}
+
+.nav-item, .navbar-brand {
+    color:white!important;
+}
+
+.btn-us{
+    background: white;
+    border-radius: 32px;
+    color: #515356;
+    padding: 5px 20px 5px;
+    border: none;
+    font-family: Opensans-bold;
+}
+
+
+.p-email{
+    color:white;
+    text-transform: uppercase;
+    font-family: Opensans-bold;
+}
+
+@font-face {
+    font-family: Opensans-bold; /* Имя шрифта */
+    src: url(../font/2204.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Opensans; /* Имя шрифта */
+    src: url(../font/2211.ttf); /* Путь к файлу со шрифтом */
+}
+
+.item-right{
+    text-align: center;
+    width: 40%;
+}
+
+
+.navbar-brand{
+    margin: 0 100px;
+}
+
+header{
+height: 375px;
+}
+#header{
+    background-image: url(../images/header.png);
+    background-size: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color:#009fff;
+    font-size: 48px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 50px;
+    font-family: Opensans;
+}
+
+.here-p{
+    padding-bottom: 40px;
+    font-family: Opensans;
+    font-size: 18px;
+    color:#707070;
+}
+.here-2-p{
+    font-family: Opensans;
+    font-size: 18px;
+    color:#707070;
+}
+.input-01{
+    width: 365px;
+    border: 1px solid #009fff;
+    border-radius: 6px;
+    padding: 5px 10px 10px;
+}
+.pdd{
+    padding-bottom: 20px;
+}
+footer{
+    padding-top: 100px;
+    background: #303030;
+}
+
+.our-p-footer{
+    color:white;
+    font-family: Opensans;
+}
+
+.our-p-footer-2{
+    color:white;
+    font-family: Opensans-bold;
+}
+.kramom{
+    color:#009fff!important;
+    font-family: Opensans-bold;
+}
+.buttonss{
+    width: 100%;
+    text-align: right;
+}
+.btn-submit{
+    background: #009fff;
+    color:white;
+    border:none;
+    font-family: Opensans-bold;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 0 50px 5px 10px;
+    margin-bottom: 55px;
+}
+
+textarea{
+    border: 1px solid #009fff;
+}
